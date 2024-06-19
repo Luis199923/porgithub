@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+.menú {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menú li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menú li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menú li a:hover {
+    color: #f0f0f0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 600px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer div {
+    margin-bottom: 10px;
+}
+
+.formContainer label {
+    font-weight: bold;
+}
+
+.formContainer input[type="text"],
+.formContainer select,
+.formContainer textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formContainer button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.formContainer button:hover {
+    background-color: #555;
+}
+
+.formContainer hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.formContainer label.checkbox {
+    display: block;
+    margin-bottom: 10px;
+}

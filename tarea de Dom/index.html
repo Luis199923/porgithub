@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Proyecto</title>
+</head>
+<body>
+    <header class="Encabezado">
+        <img src="./img/pexels-trtritam-2194261.jpg" alt="sin imagen" width="150px">
+        <h1 class="Titulo">Menú de ejercicios</h1>
+        <nav>
+            <ul class="menú">
+                <li><a href="pages/ejercicios.html">ejercicios</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li><a href="#">Acerca de</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section>
+            <div>
+                
+            </div>
+        </section>
+        <section>
+            <header>
+                <h2 class="Titulo">Registrarse</h2>
+            </header>
+            <article class="formContainer">
+                <form action="">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text">
+                    </div>
+                    <div>
+                        <label for="edad">Edad</label>
+                        <input id="edad" type="text" min="1" max="99" required maxlength="2">
+                    </div>
+                    <div>
+                        <label for="">Sexo</label>
+                        <select id="sexo">
+                            <option value="m">Masculino</option>
+                            <option value="f">Femenino</option>
+                        </select>
+                    </div>
+                    <div>
+                        <hr>
+                        <label for="comentario">Comentarios:</label>
+                        <textarea id="ejercicio" rows="4" cols="50" placeholder="Aquí ingrese un comentario"></textarea>
+                        <button onclick="Aceptar()">Aceptar</button>
+                        <button>Rechazar</button>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" id="gusta" value="yes">
+
+                            Me gusta
+                        </label>
+                        
+                    </div>
+                   
+                   
+                </form>
+            </article>
+        
+            
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="./pages/ejercicios.html"></script>
+
+</body>
+</html>
